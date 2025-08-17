@@ -1,0 +1,26 @@
+[
+  {
+    "id": "mc_001",
+    "type": "multiple-choice",
+    "question": "Как переводится слово 'hello'?",
+    "options": ["Привет", "Пока", "Спасибо", "Пожалуйста"],
+    "answer": "Привет"
+  },
+  {
+    "id": "match_001",
+    "type": "matching",
+    "question": "Соедините слова с их переводом",
+    "pairs": [
+      {"left": "hello", "right": "привет"},
+      {"left": "goodbye", "right": "до свидания"},
+      {"left": "thank you", "right": "спасибо"}
+    ]
+  },
+  {
+    "id": "sentence_001",
+    "type": "sentence-building",
+    "question": "Составьте предложение 'Привет, как дела?'",
+    "words": ["Привет,", "дела?", "как"],
+    "correctSentence": ["Привет,", "как", "дела?"]
+  }
+]
