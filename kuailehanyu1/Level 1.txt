@@ -1,17 +1,27 @@
 [
   {
-    "question": "What is the capital of France?",
-    "options": ["Berlin", "Madrid", "Paris", "Rome"],
-    "answer": "Paris"
+    "id": "mc_001",
+    "type": "multiple-choice",
+    "question": "Как переводится слово 'hello'?",
+    "options": ["Привет", "Пока", "Спасибо", "Пожалуйста"],
+    "answer": "Привет"
   },
   {
-    "question": "Which planet is known as the Red Planet?",
-    "options": ["Earth", "Mars", "Jupiter", "Venus"],
-    "answer": "Mars"
+    "id": "match_001",
+    "type": "matching",
+    "question": "Соедините слова с их переводом",
+    "pairs": [
+      {"left": "hello", "right": "привет"},
+      {"left": "goodbye", "right": "до свидания"},
+      {"left": "thank you", "right": "спасибо"}
+    ]
   },
   {
-    "question": "What is 2 + 2?",
-    "options": ["3", "4", "5", "6"],
-    "answer": "4"
+    "id": "sentence_001",
+    "type": "sentence-building",
+    "question": "Составьте предложение 'Привет, как дела?'",
+    "words": ["Привет,", "дела?", "как"],
+    "correctSentence": ["Привет,", "как", "дела?"]
   }
 ]
+
